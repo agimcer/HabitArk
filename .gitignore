@@ -1,0 +1,32 @@
+# --- Entornos virtuales y Python ---
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.manifest
+*.spec
+
+# --- Secretos y configuración local ---
+.env
+
+# --- Datos, rasters y archivos pesados del proyecto ---
+data/
+Limpieza_datos/datos_worldclim/
+Limpieza_datos/mapas_recortados/
+*.parquet
+*.tif
+*.csv
+*.zip
+
+# --- IDEs y Editores de código ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Sistema operativo ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
